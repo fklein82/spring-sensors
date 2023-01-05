@@ -1,4 +1,4 @@
-allow_k8s_contexts('eduk8s')
+allow_k8s_contexts('tap-demo1-3')
 
 SOURCE_IMAGE = os.getenv("SOURCE_IMAGE", default='your-registry.io/project/spring-sensors-source')
 LOCAL_PATH = os.getenv("LOCAL_PATH", default='.')
@@ -22,5 +22,3 @@ k8s_custom_deploy(
 
 k8s_resource('spring-sensors', port_forwards=["8080:8080"],
             extra_pod_selectors=[{'serving.knative.dev/service': 'spring-sensors'}])
-
-allow_k8s_contexts('tap-demo1-3')
