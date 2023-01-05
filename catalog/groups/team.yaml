@@ -6,10 +6,10 @@ metadata:
 spec:
   type: team
   profile:
-    displayName: The VMware Tanzu SE team
+    displayName: Globals Tanzu SE team
     email: kfrederic@vmware.com
     picture: https://blogs.vmware.com/cloudprovider/files/2021/09/logo-vmware-tanzu-square-Header.png
-  parent: vmware-tanzu-bu
+  parent: globals-tanzu-bu
   children: []
 ---
 apiVersion: backstage.io/v1alpha1
@@ -18,7 +18,7 @@ metadata:
   name: user
 spec:
   profile:
-    displayName: Dev User
+    displayName: Frederic KLEIN
     email: kfrederic@vmware.com
     picture: https://pbs.twimg.com/profile_images/1235868806079057921/fTL08u_H_400x400.png
   memberOf: [fklein-tanzu-se]

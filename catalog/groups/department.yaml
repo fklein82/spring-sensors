@@ -1,8 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
-  name: vmware-tanzu-bu
-  description: The VMware Tanzu BU
+  name: globals-tanzu-bu
+  description: The VMware Globals Tanzu BU
   links:
     - url: https://tanzu.vmware.com
       title: Website
