@@ -17,7 +17,7 @@ metadata:
 spec:
   type: service
   lifecycle: experimental
-  owner: Fred Klein - team-vmware-tanzu-se
+  owner: 	fklein-tanzu-se
   system: spring-sensors
   dependsOn:
     - Resource:database-postgres

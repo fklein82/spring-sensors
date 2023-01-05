@@ -1,3 +1,3 @@
 # Emoji World
 
-The Emoji World is currently composed of the Inclusion Service and the PostgreSQL database.
+The Spring Sensors is currently composed of the Sensors Service and the PostgreSQL database.

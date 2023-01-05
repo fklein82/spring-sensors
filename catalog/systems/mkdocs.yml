@@ -1,4 +1,4 @@
-site_name: 'emoji-site'
+site_name: 'sensors-site'
 
 nav:
   - Home: index.md
