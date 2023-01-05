@@ -15,6 +15,15 @@ spec:
   source:
     git:
       # update when code is pushed to a new location
-      url: $GITREPO
+      url: https://github.com/fklein82/spring-sensors.git
       ref:
         branch: main
+  params:
+    - name: api_descriptor
+      value:
+        type: openapi
+        location:
+          path: "/v3/api-docs"
+        system: spring-sensors
+        owner: fklein-tanzu-se
+        description: "A set of API endpoints to manage the resources within the inclusion app."
