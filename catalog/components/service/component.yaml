@@ -11,6 +11,7 @@ metadata:
     - tanzu
   annotations:
     'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=spring-sensors'
+    'backstage.io/techdocs-ref': dir:.
   links:
     - url: https://spring.io/
       title: Spring makes Java simple, modern, productive, reactive, cloud-ready
@@ -18,6 +19,4 @@ spec:
   type: service
   lifecycle: experimental
   owner: fklein-tanzu-se
-  system: spring-sensors
-  dependsOn:
-    - Resource:database-postgres
+
