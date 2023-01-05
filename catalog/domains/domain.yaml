@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: spring-sensors-domain
+  description: Everything related to Sensors data
+  links:
+    - url: https://start.spring.io/
+      title: Start Spring.io
+    - url: https://spring.io/
+      title: Spring.io
+      icon: dashboard
+  annotations:
+    'backstage.io/techdocs-ref': dir:.
+spec:
+  owner: Fred Klein - team-vmware-tanzu-se

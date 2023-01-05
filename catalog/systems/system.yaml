@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name:  spring-sensors
+  description: Spring Sensors
+  annotations:
+    'backstage.io/techdocs-ref': dir:.
+spec:
+  owner: Fred Klein - team-vmware-tanzu-se
+  domain: spring-sensors-domain
