@@ -4,6 +4,7 @@ metadata:
   name:  spring-sensors
   description: Spring Sensors
   annotations:
+    'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=spring-sensors' 
     'backstage.io/techdocs-ref': dir:.
 spec:
   owner: fklein-tanzu-se

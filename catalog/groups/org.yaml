@@ -1,8 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
-  name: vmware-corp
-  description: The VMware organization
+  name: tanzu-corp
+  description: Tanzu organization
   links:
     - url: https://www.vmware.com
       title: Website
@@ -17,7 +17,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Location
 metadata:
-  name: vmware-group
+  name: vmware-globals
   description: The VMware group
 spec:
   targets:
