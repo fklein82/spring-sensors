@@ -4,11 +4,11 @@ metadata:
   name: spring-sensors
   description: Spring Sensors
   tags:
-    - app-accelerator
     - java
     - spring
     - web
     - tanzu
+    - spring-sensors
   annotations:
     'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=spring-sensors'
     'backstage.io/techdocs-ref': dir:.
