@@ -20,5 +20,16 @@ spec:
   profile:
     displayName: Frederic KLEIN
     email: kfrederic@vmware.com
+    picture: https://pbs.twimg.com/profile_images/1069395220788318208/Ot2sB25D_400x400.jpg
+  memberOf: [fklein-tanzu-se]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: hichem
+spec:
+  profile:
+    displayName: Hichem BENAMARA
+    email: hbenamara@vmware.com
     picture: https://pbs.twimg.com/profile_images/1235868806079057921/fTL08u_H_400x400.png
   memberOf: [fklein-tanzu-se]
