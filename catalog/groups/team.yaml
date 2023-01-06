@@ -31,7 +31,7 @@ spec:
   profile:
     displayName: Hichem BENAMARA
     email: hbenamara@vmware.com
-    picture: https://pbs.twimg.com/profile_images/1235868806079057921/fTL08u_H_400x400.png
+    picture: https://media.licdn.com/dms/image/C4E03AQH_JRvwrIKBiQ/profile-displayphoto-shrink_800_800/0/1517733395659?e=1678320000&v=beta&t=r_JNy2K654qXG4W7npvizJOBE2uyde8EABUw9QYyzwI
   memberOf: [fklein-tanzu-se]
 ---
 apiVersion: backstage.io/v1alpha1
