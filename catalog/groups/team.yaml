@@ -53,5 +53,5 @@ spec:
   profile:
     displayName: Farid BENREJDAL
     email: fbenrejdal@vmware.com
-    picture: http://loeilduse.fr/wp-content/uploads/2018/05/Farid-Benrejdal-1-218x300.jpg
+    picture: https://media.licdn.com/dms/image/C4E03AQHQl0r8ZpdnfA/profile-displayphoto-shrink_800_800/0/1527705606794?e=1678320000&v=beta&t=4Ln3xegoxGqmZdXc6mfqg1FPNvMipVrwqhF5g8Ijee8
   memberOf: [fklein-tanzu-se]
