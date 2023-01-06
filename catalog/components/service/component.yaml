@@ -19,4 +19,7 @@ spec:
   type: service
   lifecycle: experimental
   owner: fklein-tanzu-se
+  system: spring-sensors
+  dependsOn:
+    - Resource:database-postgres
 
