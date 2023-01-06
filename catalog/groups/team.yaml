@@ -44,3 +44,14 @@ spec:
     email: emorael@vmware.com
     picture: https://media.licdn.com/dms/image/C4E03AQFefLQjKt5Zbw/profile-displayphoto-shrink_200_200/0/1641508845334?e=1678320000&v=beta&t=4If4qiJjbqNBMq_mm6Djga8ZtfAQ5hz6FexOKTcTn3o
   memberOf: [fklein-tanzu-se]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: elie
+spec:
+  profile:
+    displayName: Farid BENREJDAL
+    email: fbenrejdal@vmware.com
+    picture: http://loeilduse.fr/wp-content/uploads/2018/05/Farid-Benrejdal-1-218x300.jpg
+  memberOf: [fklein-tanzu-se]
